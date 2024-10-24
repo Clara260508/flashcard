@@ -27,6 +27,7 @@ body{
 .cartao__conteudo {
     background-color: var(--card-front-color);
     text-align: center;
+    /* background-color: aquamarine; */
     height: 100%; 
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
@@ -76,13 +77,13 @@ body{
 
 .cartao__conteudo__resposta{
     transform: rotateY(180deg);
-    background-color: rgba(0,244,191,0.2);
+    background-color: rgb(147, 204, 124) (0,244,191,0.2);
     border: 4px solid var(--card-back-color);
 }
 
 footer {
     background-color: black;
-    color:blanchedalmond;
+    color:rgb(200, 151, 203);
     position: fixed;
     bottom: 0;
     width: 100%;
